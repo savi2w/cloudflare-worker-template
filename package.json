@@ -1,19 +1,19 @@
 {
-  "name": "cloudflare-worker-template",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify",
-    "types": "wrangler types --env-interface Bindings"
-  },
-  "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241022.0",
-    "@types/node": "^22.8.4",
-    "typescript": "^5.6.3",
-    "wrangler": "^3.84.0"
-  },
-  "dependencies": {
-    "hono": "^4.6.8"
-  }
+	"name": "cloudflare-worker-template",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy --minify",
+		"types": "wrangler types --env-interface Bindings"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20241022.0",
+		"@types/node": "^22.8.4",
+		"typescript": "^5.6.3",
+		"wrangler": "^3.84.0"
+	},
+	"dependencies": {
+		"hono": "^4.6.8"
+	}
 }
